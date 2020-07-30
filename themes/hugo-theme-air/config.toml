@@ -13,8 +13,8 @@ canonifyurls = true
     post = "/post/:year/:month/:day/:slug"
 
 [params]
-  description = "this is my description"
-  cover = "images/user.jpg"
+  description = "penis"
+  cover = "images/screen.jpg"
   author = "syui"
   authorlocation = ""
   authorwebsite = "https://syui.cf/hugo-theme-air"

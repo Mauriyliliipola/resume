@@ -1,6 +1,35 @@
 theme = "hugo-theme-air"
 baseURL = "/"
 #baseurl = http://example.org/
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "fi"
+title = "Mauri Yli-Liipola"
+paginate = 5
+DisqusShortname = ""
+Copyright = "All rights reserved - 2020"
+canonifyurls = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+  description = "CV"
+  cover = "images/screen.jpg"
+  author = "Mauri Yli-Liipola"
+  authorlocation = ""
+  authorwebsite = ""
+  bio= "my bio"
+  logo = ""
+  #images/user.png
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "Mauriyliliipola"
+  twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = true
+  mainSections = ["post"]
+
+
+[author]
+  name = "Mauriyliliipola"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug"
